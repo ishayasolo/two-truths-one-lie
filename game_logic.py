@@ -10,8 +10,17 @@ def init():
   statements = [
     stm.truths[randomListOfTruths[0]],
     stm.truths[randomListOfTruths[1]],
-    stm.truths[randomListOfLies[0]]
+    stm.lies[randomListOfLies[0]]
   ]
 
-  listOfShuffledStatements = random.sample(range(0, len(statements)), 3)
-  print(listOfShuffledStatements)
+  lie = statements[2]
+
+  shuffledIndices = random.sample(range(0, len(statements)), 3)
+  # print(statements[shuffledIndices[0]])
+  # print(statements[shuffledIndices[1]])
+  # print(statements[shuffledIndices[2]])
+
+  print(statements)
+  print(shuffledIndices)
+
+  guess = input('what\'s the lie?\n>>> ')

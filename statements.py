@@ -15,7 +15,7 @@ truths = [
   'My dad is a secret agent (or other profession)',
   'My sister is a vegetarian',
   'I do not like Versace products',
-  'One of my cousins is a movie star (sports star)',
+  'One of my cousins is a movie star',
   'When I was a kid, I wanted to be a movie star.',
   'I hate spaghetti',
   'I do not have a favourite musician',

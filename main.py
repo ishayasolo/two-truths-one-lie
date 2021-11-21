@@ -9,7 +9,7 @@ purpose: csc318 - structured programming course work
 
 import game_logic
 
-print(__doc__)
+# print(__doc__)
 
 # launch game
 game_logic.init()
