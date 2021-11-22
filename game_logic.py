@@ -3,14 +3,11 @@ import statements as stm
 
 # launcher
 def init():
-  randomListOfTruths = random.sample(range(0, len(stm.truths)), 2)
-  randomListOfLies = random.sample(range(0, len(stm.lies)), 1)
-
-  # print 2 true statements
+  # randomly print 2 true statements and one false statement
   statements = [
-    stm.truths[randomListOfTruths[0]],
-    stm.truths[randomListOfTruths[1]],
-    stm.lies[randomListOfLies[0]]
+    stm.truths[random.sample(range(0, len(stm.lies)), 1)[0]],
+    stm.truths[random.sample(range(0, len(stm.lies)), 1)[1]],
+    stm.lies[random.sample(range(0, len(stm.lies)), 1)[0]]
   ]
 
   lie = statements[2]
