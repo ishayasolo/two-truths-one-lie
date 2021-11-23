@@ -7,9 +7,12 @@ purpose: csc318 - structured programming course work
 ****************************************************
 """
 
-import game_logic
+import rules_of_the_game, game_logic
 
 # print(__doc__)
+
+# print the rules of the game
+rules_of_the_game.print_rules()
 
 # launch game
 game_logic.init()

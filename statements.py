@@ -19,7 +19,8 @@ truths = [
   'When I was a kid, I wanted to be a movie star.',
   'I hate spaghetti',
   'I do not have a favourite musician',
-  'I am a christian'
+  'I am a christian',
+  'I have a white dog'
 ]
 
 # a bunch of lies
@@ -29,7 +30,7 @@ lies = [
   'I made my first million during lockdown',
   'I understand python',
   'I am a pretty girl',
-  'I was awarded the best student in Physics in higher school'
+  'I was awarded the best student in Physics in high school',
   'My mom is a Nigerian',
   'My favourite musician is Davido',
   'I love studying',
@@ -39,5 +40,7 @@ lies = [
   'I am a data scientist',
   'I am a web developer',
   'I always have tea for breakfast',
-  'I love midnight snacks'
+  'I love midnight snacks',
+  'I love garnished garri',
+  'I love all my lecturers'
 ]
