@@ -9,4 +9,5 @@ def print_rules():
   print('- your job is to spot the lie')
   print('- you guess correctly, you earn 10 coins')
   print('- you guess wrongly, you earn 0 coins')
+  print('- type \'ctrl + shift + c\' at any point to force-close the program')
   print('- GOODLUCK!!!')
