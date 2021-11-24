@@ -44,7 +44,8 @@ def init():
     else:
       print('\n- your answer is wrong!')
       print('- the false statement is ->', lie)
-      print('- you earned 0 coins')
+      cm.subtract_coins()
+      print('- you\'ve lost 10 coins')
     
   # a subroutine to mark the player's answer
   # this subroutine also calls the 'validate_selection()' function
@@ -88,6 +89,10 @@ def init():
   answer = input('\nwhich of the above statements is a lie? (\'1\', \'2\' or \'3\')\n>>> ')
   mark_answer()
   rm.add_round()
-  continue_or_not()
+  
+  if cm.get_coins() >= 10:
+    continue_or_not()
+  else:
+    print('\n- you\'ve run out of coins...game over!!!')
 
   
