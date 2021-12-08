@@ -9,8 +9,6 @@ purpose: csc318 - structured programming course work
 
 import rules_of_the_game, game_logic, coin_merchant as cm
 
-# print(__doc__)
-
 # print the rules of the game
 rules_of_the_game.print_rules(cm)
 
