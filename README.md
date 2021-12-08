@@ -12,5 +12,5 @@ purpose: csc318 - structured programming course work
 - you begin with 50 coins
 - you guess correctly, you earn 10 coins
 - you guess wrongly, you lose 10 coins
-- type \'ctrl + shift + c\' at any point to force-close the program during execution
+- type 'ctrl + shift + c' at any point to force-close the program during execution
 - GOOD LUCK!!!
