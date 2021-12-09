@@ -1,4 +1,4 @@
-# 2 truths and a lie
+# two truths one lie (2T1L)
 ### Author: Ishaya Victor Solomon | [@ishayasolo](https://github.com/ishayasolo)
 date: 19th nov 2021
 purpose: csc318 - structured programming course work
