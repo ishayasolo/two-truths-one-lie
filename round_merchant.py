@@ -1,3 +1,5 @@
+# ROUND MERCHANT
+# responsible for keeping track of round count
 number_of_rounds = 1
 
 def get_rounds():

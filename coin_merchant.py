@@ -1,3 +1,5 @@
+# COIN MERCHANT
+# responsible for coin distribution
 coins = 50
 
 def add_coins():
